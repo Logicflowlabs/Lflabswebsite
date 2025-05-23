@@ -1,6 +1,7 @@
 import React from 'react';
 import csutsnt from '../assets/csutsnt.png';
-
+import technology from '../assets/technology4.png';
+import services from '../assets/services.png';
 const Cards = () => {
   return (
     <div className="mt-8 text-center">
@@ -29,7 +30,7 @@ const Cards = () => {
           <div className="w-full max-w-xs p-6 bg-white rounded-lg shadow-lg">
             <div className="flex justify-center mb-4">
               <img
-                src="path_to_technology_icon.png" // Replace with your actual icon path or URL
+                src={technology}// Replace with your actual icon path or URL
                 alt="Technology"
                 className="w-16 h-16"
               />
@@ -44,7 +45,7 @@ const Cards = () => {
           <div className="w-full max-w-xs p-6 bg-white rounded-lg shadow-lg">
             <div className="flex justify-center mb-4">
               <img
-                src="path_to_services_icon.png" // Replace with your actual icon path or URL
+                src={services} // Replace with your actual icon path or URL
                 alt="Services"
                 className="w-16 h-16"
               />
