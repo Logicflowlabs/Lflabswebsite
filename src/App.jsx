@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/Lflabswebsite">
+      <BrowserRouter>
       <Routes>
      <Route path='/' element = {<Landingpage/>} />
       </Routes>
